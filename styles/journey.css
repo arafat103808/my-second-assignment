@@ -56,13 +56,358 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
 font-family: Mulish;
 font-size: 64px;
 font-weight: 800;
+text-align: center;
 
 }
-.header-container p {
+.heading-explore p {
     color: #FFF;
 text-align: center;
 font-family: Mulish;
-font-size: 16px;
+font-size: 20px;
 font-weight: 400;
-line-height: 26px; 
+font-style: normal;
+}
+.input-item{
+    display: inline-flex;
+    padding: 30px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 40px;
+    gap: 24px;
+}
+.icon{
+    background-color: #FFF;
+    padding-right: 16px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+
+}
+.icon input{
+    border: none;
+    padding: 16px;
+}
+.input-item{
+    color: rgba(19, 19, 24, 0.50);
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 8px;
+  
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.button{
+    background: #FF5400;
+    width: 150;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+
+}
+.second-section{
+    display: flex;
+    max-width: 1120px;
+    background: #FFF;
+    margin: 50px auto;
+    align-items: center;
+    gap: 50px;
+}
+.second-section s {
+    color: #131318;
+    font-size: 40;
+    font-weight: 800;
+}
+.second-section p ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.second-section button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+
+
+}
+.image-container{
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.heading{
+    text-align: center;
+}
+.two-image{
+    display: flex;
+    margin-top: 50px;
+    margin: o auto;
+    justify-content: center;
+    gap: 15px;
+}
+.three-image, .country-image{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.Maldives h3 , .indonesia h3{
+    margin-top: -180px;
+    position: absolute;
+    margin-left: 220px;
+    text-align: center;
+    font-size: 24px;
+    font-style: 800;
+}
+.Maldives{
+    position: relative;
+}
+.indonesia{
+    position: relative;
+
+}
+.srilanka{
+    position: relative;
+}
+.srilanka h3, .north-america h3{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 140px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+.north-america{
+    position: relative;
+}
+.kashmir{
+    position: relative;
+}
+.kashmir h3{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 150px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.bangladesh{
+    position: relative;
+}
+.
+.bangladesh h3{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 150px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.bandarban{
+    position: relative;
+
+}
+.bandarban h3{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 150px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+
+
+}
+.hotel-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 20px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.best-price{ 
+    grid-column: span 2 / span 2;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding-left: 40px;
+    padding-right: 90px;
+    padding-top: 30px;
+
+}
+.hotel-type{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+
+background: rgba(251, 181, 99, 0.05);
+padding-left: 40px;
+padding-top: 30px;
+}
+.world-service{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
+padding-left: 40px;
+padding-top: 30px;
+}
+.News-container{
+    display: flex;
+    background: #FFF;
+    max-width: 1170px;
+    margin:60px auto;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+.Newsletter{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-left: 35px;
+    width: 35%;
+   
+
+}
+.Newsletter h2{
+    color: #131318;
+    font-size: 24PX;
+    font-weight: 800;
+    margin-top: 45PX;
+
+
+}
+/* .Newsletter{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+
+} */
+.Newsletter input{
+    width: 330px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-bottom: 18px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 15px;
+
+
+}
+.Newsletter button{
+    width: 345px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    margin-bottom: 18px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+
+
+}
+.news-image p{
+    position: relative;
+}
+.OFF{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: mulish;
+    font-style: normal;
+    line-height: normal;
+
+}
+.OFF h2{
+    color: #FFF;
+    font-weight: 800;
+    font-family: mulish;
+    font-style: normal;
+    font-size: 30px;
+}
+.footer-container{
+    background: rgba(19, 19, 24, 0.05);
+    padding-bottom: 40px;
+
+}
+.footer-container img {
+    width: 40px;
+    height: 46.673px;
+    flex-shrink: 0;
+
+}
+.footer-heading {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    padding-top: 80;
+
+}
+.footer-heading span {
+    color:#FF5400 ;
+
+}
+.footer-container p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.logo {
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.15);
+    width: 1320px;
+    height: 1px;
+    margin-top: 30px;
+
+
+}
+.logo{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    height: 30px;
+    margin-bottom: 40px;
+
+}
+.logo-h{
+    width: 872px;
+    height: 1px;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 40px;
 }
