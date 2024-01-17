@@ -1,16 +1,13 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-.header{
-   max-width: 1120px;
-   margin: 0 auto;
+.header-section{
+    max-width: 1120px;
+    margin:  0 auto;
     display: flex;
     align-items: center;
-   justify-content: space-between;
-
+    justify-content: space-between;
 }
-.blog{
-    text-align: center;
+.nav-container{
     display: flex;
-    gap: 44px;
+}
+.item{
+    display: flex;
 }
